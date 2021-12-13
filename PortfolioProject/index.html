@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8870a3e68e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8870a3e68e.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav onglets">
+                  <li class="nav-item ">
+                    <a class="nav-link text-dark" href="#aboutme">About me</a>
+                  </li>
+                  <li class="nav-item onglets">
+                    <a class="nav-link text-dark" href="#projets">My projects</a>
+                  </li>
+                  <li class="nav-item onglets">
+                    <a class="nav-link text-dark" href="#mecontacter">Contact</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav social">
+                  <li class="nav-item icone">
+                    <a class="nav-link text-dark" href="https://github.com/DavyHaYehoudi?tab=repositories"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li class="nav-ite icone">
+                    <a class="nav-link text-dark" href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/?locale=en_US"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <p class="separateur"></p>
+    </header>
+    <main>
+          <section class="welcome" id="welcome">
+            <h1>Welcome to my Portfolio !</h1>
+              <div class="welcomediv">
+                <div class="imgWelcome">
+                  <p class="paragrapheHome">Program and thus model your thinking</p>
+                </div>
+              </div>
+          </section>
+
+          <section class="aboutme" id="aboutme">
+                <h1>Who am I  <i class="fas fa-question"></i></h1>
+                 <div class="aboutmediv">
+                   <img src="images/photo.jpg" alt="photo" class="profil">
+                   <p>After 14 years in the French National Police, I decided to leave everything and come and settle in Israel 4 years ago. I was a madrich for adolescents and then a manager in a company of 20 people. For more than a year, I discovered a passion for programming with all the challenges it raises and I want to deepen and create more and more advanced projects.</p>
+                 </div>
+          </section>
+
+          <section class="careerPro" id="careerPro">
+                <h1>My professional experience</h1>
+                  <div class="careerProdiv">
+                    <p><img src="images/pn.png" class="expImg"> National police officer during 14 years </p>
+                    <p><img src="images/yem.png" class="expImg"> Madrich for teenagers in a boarding school </p>
+                    <p><img src="images/man.png" class="expImg"> Manager for a team of 20 people in Jerusalem </p>
+                    <p><img src="images/ocr.png" class="expImg"> Web full-stack developer qualified by Openclassrooms in France 2021</p>
+                    <p><img src="images/di.png" class="expImg"> Web full-stack developer qualified by Developer Institut in Tel Aviv 2021</p>
+                  </div>
+          </section>
+          <section class="hobbies" id="hobbies">
+                <h1>My hobbies</h1>
+                  <div class="myhobbies">
+                    <p><img src="images/natation.png" alt="natation" class="hobbiesimg"> Swimming -Competition</p>
+                    <p>Piano -Music conservatory <img src="images/piano.png" alt="piano" class="hobbiesimg"> </p>
+                    <p><img src="images/chess.png" alt="chess" class="hobbiesimg"> Chess -Classified Elo +2000</p>
+                  </div>
+          </section>
+          
+          <section class="projets" id="projets">
+                <h1>My Projects</h1>
+                  <div class="row mesprojets">
+                          <div class="card  col-md-8 col-xl-4" >
+                              <img class="card-img-top" src="images/orinoco.png" alt="Card image cap">
+                                <div class="card-body"> 
+                                  <img src="images/ico_epingle.png" alt="epingle" class="epingle"> 
+                                  <h5 class="card-title">Project 1</h5>
+                                  <p class="card-text">Orinoco e-commerce MVP (Minimum Viable Product)  </p>
+                                  <a href="https://github.com/DavyHaYehoudi/P5_SEBBAH_Davy" class="btn btn-primary">Go to the link</a>
+                                </div>
+                          </div>
+                          <div class="card  col-md-8 col-xl-4" >
+                              <img class="card-img-top" src="images/zozor.png" alt="Card image cap">
+                              <div class="card-body">
+                                <img src="images/ico_epingle.png" alt="epingle" class="epingle"> 
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">DonkeyPost - Social Network</p>
+                                <a href="https://github.com/DavyHaYehoudi/FinalProjectDI" class="btn btn-primary">Go to the link</a>
+                              </div>
+                          </div>
+                  </div>
+          </section>
+
+          <section class="mecontacter" id="mecontacter">
+              <div class="formulaire">
+                <h2>Contact me !</h2>
+                <form>
+                    <div class="mb-3 p-0">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="expMail" placeholder="name@for.com" autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your email</label>
+                        <textarea class="form-control" id="bodyMail" rows="3"></textarea>
+                        <button class="btn-submit p-2" id="send">Send</button>
+                    </div>
+                </form>
+            </div>
+          </section>
+          <div class="back"><a href="#navbar">Back  <i class="fas fa-arrow-alt-circle-up"></i></a></div>
+
+
+        </main>
+          <p class="separateur"></p>
+          <img src="images/ico_top.png" class="icotop" id="icotop" alt="languette">
+
+        <footer>
+          <img src="images/welcome.png" alt="welcome" class="imgWelcome" id="imageHome">
+          <h1 class="titleHome" id="titleHome">Alone we go faster, together we go further.</h1>
+
+        </footer>
+    
+      </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
